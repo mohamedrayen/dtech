@@ -8,7 +8,7 @@
 					<div class="xs-feature-group wow fadeInLeft">
 						<div class="media">
 							<div class="feature-img d-flex">
-								<img src="assets/images/sheild-2.png" alt="hosting feature img">
+								<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/sheild-2.png" alt="hosting feature img">
 							</div>
 							<div class="media-body feature-content">
 								<h4 class="xs-title">Days money back guarantee</h4>
@@ -24,7 +24,7 @@
 					<div class="xs-feature-group wow fadeInRight">
 						<div class="media">
 							<div class="feature-img d-flex">
-								<img src="assets/images/cloud-lock-2.png" alt="hosting feature img">
+								<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/cloud-lock-2.png" alt="hosting feature img">
 							</div>
 							<div class="media-body feature-content">
 								<h4 class="xs-title">Build and protect your brand</h4>
@@ -39,7 +39,7 @@
 			</div><!-- .row END -->
 		</div><!-- .container END -->
 	</div>			<!-- END feature list section -->
-	<div class="footer-group" style="background-image: url(assets/images/footer-bg.png);">
+	<div class="footer-group" style="background-image: url(<?= get_stylesheet_directory_uri() ?>/assets/images/footer-bg.png);">
 		<div class="footer-main">
 			<div class="container">
 				<div class="row">
@@ -86,15 +86,15 @@
 							<h3 class="widget-title">Contact Info</h3>
 							<ul class="contact-info-widget">
 								<li class="media">
-									<img src="assets/images/address-pin.png" class="d-flex" alt="contact icon">
+									<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/address-pin.png" class="d-flex" alt="contact icon">
 									<span class="media-body">9/4c, 1010 Avenue, NY, USA</span>
 								</li><!-- .media END -->
 								<li class="media">
-									<img src="assets/images/phone-pin.png" class="d-flex" alt="contact icon">
+									<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/phone-pin.png" class="d-flex" alt="contact icon">
 									<span class="media-body">+216 92 560 245 (toll free) +216 92 560 245</span>
 								</li><!-- .media END -->
 								<li class="media">
-									<img src="assets/images/email-icon.png" class="d-flex" alt="contact icon">
+									<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/email-icon.png" class="d-flex" alt="contact icon">
 									<span class="media-body">9/4c, 1010 Avenue, NY, USA</span>
 								</li><!-- .media END -->
 							</ul><!-- .contact-info-widget -->
@@ -113,10 +113,10 @@
 					</div>
 					<div class="col-md-6">
 						<ul class="xs-list list-inline wow fadeInUp" data-wow-duration="1s">
-							<li><img src="assets/images/security/security-company-images-1.png" alt="security company images"></li>
-							<li><img src="assets/images/security/security-company-images-2.png" alt="security company images"></li>
-							<li><img src="assets/images/security/security-company-images-3.png" alt="security company images"></li>
-							<li><img src="assets/images/security/security-company-images-4.png" alt="security company images"></li>
+							<li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-1.png" alt="security company images"></li>
+							<li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-2.png" alt="security company images"></li>
+							<li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-3.png" alt="security company images"></li>
+							<li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-4.png" alt="security company images"></li>
 						</ul>
 					</div>
 				</div><!-- .row END -->
@@ -133,7 +133,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="footer-logo-wraper wow fadeInUp" data-wow-duration="1s">
-						<a href="index.html" class="footer-logo"><img src="assets/images/footer-logo.png" alt="footer logo"></a>
+						<a href="index.html" class="footer-logo"><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/footer-logo.png" alt="footer logo"></a>
 					</div><!-- .footer-logo-wraper END -->
 				</div>
 				<div class="col-md-4">
@@ -153,33 +153,33 @@
 </footer>
 <!-- footer section end -->
 <!-- js file start -->
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/jquery-ui.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/Popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/tweetie.js"></script>
-<script src="assets/js/jquery.parallax-scroll.js"></script>
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="assets/js/jquery.parallax.js"></script>
-<script src="assets/js/hostslide.js"></script>
-<script src="assets/js/vps-slider.js"></script>
-<script src="assets/js/vps-slider-settings.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery-3.2.1.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery-ui.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/plugins.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/Popper.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/owl.carousel.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/tweetie.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.parallax-scroll.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.parallax.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/hostslide.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/vps-slider.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/vps-slider-settings.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k"></script>
-<script src="assets/js/jquery.themepunch.tools.min.js"></script>
-<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/js/extensions/revolution.extension.video.min.js"></script>
-<script src="assets/js/shuffle-letters.js"></script>
-<script src="assets/js/main.js"></script>		<!-- End js file -->
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/jquery.themepunch.revolution.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.video.min.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/shuffle-letters.js"></script>
+<script src="<?= get_stylesheet_directory_uri() ?>/assets/js/main.js"></script>		<!-- End js file -->
 </body>
 </html>

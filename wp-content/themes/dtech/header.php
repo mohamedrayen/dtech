@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>D-Technologie - Index Two</title>
+	<title><?php wp_title(); ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,27 +13,27 @@
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<!-- Place favicon.ico in the root directory -->
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?= get_ stylesheet_directory_uri() ?>/assets/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/iconfont.css">
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="assets/css/jquery-ui.structure.min.css">
-	<link rel="stylesheet" href="assets/css/jquery-ui.theme.min.css">
-	<link rel="stylesheet" href="assets/css/rev-settings.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/animate.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/iconfont.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/rev-settings.css">
 
 
 	<!--For Plugins external css-->
-	<link rel="stylesheet" href="assets/css/plugins.css" />
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/plugins.css" />
 
 	<!--Theme custom css -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/style.css">
 
 	<!--Theme Responsive css-->
-	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/responsive.css" />
 </head>
 <body>
 <!--[if lt IE 10]>
@@ -81,7 +81,7 @@
 			<div class="row align-items-center">
 				<div class="xs-logo-wraper">
 					<a href="index.html" class="xs-logo">
-						<img src="assets/images/logo.png" alt="">
+						<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="">
 					</a>
 				</div>
 				<nav class="xs-menus ml-auto">
@@ -97,19 +97,19 @@
 									<div class="row">
 										<div class="col-lg-4">
 											<a href="index.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-one.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-one.jpg" alt="">
 												<h4>Home One</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v2.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-two.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-two.jpg" alt="">
 												<h4>Home Two</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v3.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-three.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-three.jpg" alt="">
 												<h4>Home Three</h4>
 											</a>
 										</div>
@@ -117,19 +117,19 @@
 									<div class="row">
 										<div class="col-lg-4">
 											<a href="index-v4.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-four.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-four.jpg" alt="">
 												<h4>Home Four</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v5.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-five.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-five.jpg" alt="">
 												<h4>Home Five</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v6.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-six.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-six.jpg" alt="">
 												<h4>Home Six</h4>
 											</a>
 										</div>
@@ -137,21 +137,21 @@
 									<div class="row">
 										<div class="col-lg-4">
 											<a href="index-v7.html" class="single-menu-panle" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-seven.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-seven.jpg" alt="">
 												<span class="menu-highlight-badge">NEW</span>
 												<h4>Home Seven</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v8.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-seven.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-seven.jpg" alt="">
 												<span class="menu-highlight-badge">NEW</span>
 												<h4>Home Eight Rev Hero</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v9.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-nine.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-nine.jpg" alt="">
 												<span class="menu-highlight-badge">NEW</span>
 												<h4>Home Nine</h4>
 											</a>
@@ -160,14 +160,14 @@
 									<div class="row">
 										<div class="col-lg-4">
 											<a href="index-v10.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-ten.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-ten.jpg" alt="">
 												<span class="menu-highlight-badge">NEW</span>
 												<h4>Home Ten</h4>
 											</a>
 										</div>
 										<div class="col-lg-4">
 											<a href="index-v11.html" class="single-menu-panle">
-												<img src="assets/images/menu-screenshorts/home-eleven.jpg" alt="">
+												<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-screenshorts/home-eleven.jpg" alt="">
 												<span class="menu-highlight-badge">NEW</span>
 												<h4>Home Eleven Rev Slider</h4>
 											</a>
@@ -235,7 +235,7 @@
 										<div class="col-lg-6">
 											<a href="shared-hosting.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-1.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-1.png" alt="">
 													<div class="media-body">
 														<h4>Shared Hosting</h4>
 														<p>Early Create sites & offload them to clients</p>
@@ -244,7 +244,7 @@
 											</a>
 											<a href="reseller-hosting.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-2.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-2.png" alt="">
 													<div class="media-body">
 														<h4>Reseller Hosting</h4>
 														<p>Early Create sites & offload them to clients</p>
@@ -253,7 +253,7 @@
 											</a>
 											<a href="vps-hosting.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-3.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-3.png" alt="">
 													<div class="media-body">
 														<h4>VPS hosting</h4>
 														<p>Protect your Brand & Deploy faster</p>
@@ -264,7 +264,7 @@
 										<div class="col-lg-6">
 											<a href="cloud-hosting.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-4.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-4.png" alt="">
 													<div class="media-body">
 														<h4>Cloud Hosting</h4>
 														<p>Access your files from anywhere</p>
@@ -273,7 +273,7 @@
 											</a>
 											<a href="dedicated-hosting.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-5.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-5.png" alt="">
 													<div class="media-body">
 														<h4>Dedicated Hosting</h4>
 														<p>Be secure, be safe</p>
@@ -282,7 +282,7 @@
 											</a>
 											<a href="domain.html">
 												<div class="media">
-													<img src="assets/images/menu-icon/icon-6.png" alt="">
+													<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-6.png" alt="">
 													<div class="media-body">
 														<h4>Domain Name</h4>
 														<p>Grab your domain name today!</p>

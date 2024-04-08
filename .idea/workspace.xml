@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="307e0b80-298e-4837-8563-df18dcf38dd0" name="Changes" comment="dev">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/parts/post-meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/post-meta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/parts/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711812593136</updated>
       <workItem from="1711812594251" duration="1563000" />
-      <workItem from="1712580306628" duration="4990000" />
+      <workItem from="1712580306628" duration="6903000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -99,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712581151097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dev">
+      <option name="closed" value="true" />
+      <created>1712587295758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712587295758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
