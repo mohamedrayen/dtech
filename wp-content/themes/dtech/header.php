@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.structure.min.css">
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.theme.min.css">
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/rev-settings.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 
 
 	<!--For Plugins external css-->
@@ -37,71 +39,71 @@
 </head>
 <body>
 <!--[if lt IE 10]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">Vous utilisez un <strong>navigateur obsolète</strong>. Veuillez <a href="http://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre expérience.</p>
 <![endif]-->
 
 <!-- prelaoder -->
 <div id="preloader">
-	<div class="preloader-wrapper">
-		<div class="spinner"></div>
-	</div>
-	<div class="preloader-cancel-btn">
-		<a href="#" class="btn btn-secondary prelaoder-btn">Cancel Preloader</a>
-	</div>
-</div>	<!-- END prelaoder -->
+    <div class="preloader-wrapper">
+        <div class="spinner"></div>
+    </div>
+    <div class="preloader-cancel-btn">
+        <a href="#" class="btn btn-secondary prelaoder-btn">Annuler le préchargement</a>
+    </div>
+</div>    <!-- END prelaoder -->
 <div class="header-transparent nav-sticky">
-	<!-- topBar section -->
-	<div class="xs-top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<ul class="xs-top-bar-info">
-						<li>
-							<p><i class="icon icon-phone1"></i>+216 92 560 245</p>
-						</li>
-						<li>
-							<a href="mailto:contact@d-technology.com"><i class="icon icon-envelope1"></i>contact@d-technology.com</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="top-menu">
+    <!-- topBar section -->
+    <div class="xs-top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="xs-top-bar-info">
+                        <li>
+                            <p><i class="icon icon-phone1"></i>+216 92 560 245</p>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@d-technology.com"><i class="icon icon-envelope1"></i>contact@d-technology.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="top-menu">
                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="#" class="googlePlus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div><!-- .row END -->
-		</div><!-- .container END -->
-	</div>    <!-- End topBar section -->
+                    </ul>
+                </div>
+            </div><!-- .row END -->
+        </div><!-- .container END -->
+    </div>    <!-- End topBar section -->
 
-	<!-- header section -->
-	<header class="xs-header header-style-2">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="xs-logo-wraper">
-					<a href="index.html" class="xs-logo">
-						<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="">
-					</a>
-				</div>
-				<nav class="xs-menus ml-auto">
-					<div class="nav-header">
-						<a class="nav-brand" href="index.html"></a>
-						<div class="nav-toggle"></div>
-					</div>
-					<!-- menu list start -->
-					<div class="nav-menus-wrapper">
-						<ul class="nav-menu">
+    <!-- header section -->
+    <header class="xs-header header-style-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="xs-logo-wraper">
+                    <a href="index.html" class="xs-logo">
+                        <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="xs-menus ml-auto">
+                    <div class="nav-header">
+                        <a class="nav-brand" href="index.html"></a>
+                        <div class="nav-toggle"></div>
+                    </div>
+                    <!-- menu list start -->
+                    <div class="nav-menus-wrapper">
+                        <ul class="nav-menu">
 
-							<li class="mega-menus">
-                                <a href="about.php">Qui Somme Nous</a>
-							</li>
-							<li class="mega-menus"><a href="Managed-Services.php">Infogérence</a>
+                            <li class="mega-menus">
+                                <a href="<?php echo get_permalink( get_post( 12 ) ) ?>">Qui Somme Nous</a>
+                            </li>
+                            <li class="mega-menus"><a href="<?php echo get_permalink( get_post( 14 ) ) ?>">Infogérence</a>
                             </li>
                             <li class="mega-menus"><a href="#">Nos Solutions</a>
-								 <div class="megamenu-panel xs-service-menu">
+                                <div class="megamenu-panel xs-service-menu">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <a href="Backup.php">
@@ -166,13 +168,13 @@
                             </li>
                             <li class="mega-menus"><a href="Network-and-Telecom.php">Réseau et Télecom</a>
                             </li>
-							<li><a href="contact.php">Contact</a></li>
+                            <li><a href="<?php echo get_permalink( get_post( 16 ) ) ?>">Contact</a></li>
 
-						</ul>
-					</div>                <!-- menu list end -->
+                        </ul>
+                    </div>                <!-- menu list end -->
 
-				</nav>
-			</div><!-- .row END -->
-		</div><!-- .container END -->
-	</header>    <!-- End header section -->
+                </nav>
+            </div><!-- .row END -->
+        </div><!-- .container END -->
+    </header>    <!-- End header section -->
 </div>

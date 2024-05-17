@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="307e0b80-298e-4837-8563-df18dcf38dd0" name="Changes" comment="dev">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/Managed-Services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/backup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/wcu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,7 @@
       <recent name="C:\xampp\htdocs\dt\wp-content\themes\dtech\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dt\wp-content\themes\dtech" />
       <recent name="C:\xampp\htdocs\dt\wp-content\themes\dtech\templates" />
     </key>
   </component>
@@ -73,7 +82,9 @@
       <workItem from="1712592400955" duration="709000" />
       <workItem from="1712593697013" duration="1544000" />
       <workItem from="1713379696042" duration="5460000" />
-      <workItem from="1713916067181" duration="1580000" />
+      <workItem from="1713916067181" duration="1691000" />
+      <workItem from="1713952246295" duration="7224000" />
+      <workItem from="1715963654812" duration="17853000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -123,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712590913330</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dev">
+      <option name="closed" value="true" />
+      <created>1713917726395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713917726395</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
