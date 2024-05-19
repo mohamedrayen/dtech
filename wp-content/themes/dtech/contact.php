@@ -72,20 +72,41 @@ get_header();
 	</div><!-- .container END -->
 </section><!-- section d'informations de contact END -->
 
-    <div class="client-slider-slick" >
-		<?php  display_brands();?>
-    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+	        <?php  display_brands();?>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
     <style>
-        .single-client{
-            display: flex!important;
+        .swiper-wrapper > *{
+            min-width: 10%;
+            padding: 1em;
+            display: flex;
             justify-content: center;
             align-items: center;
         }
-        .img-client{
-            max-width: 100%;
-            max-height: 100%;
-        }
+    </style>
+    <style>
+
+        /*.single-client{*/
+        /*    display: flex!important;*/
+        /*    justify-content: center;*/
+        /*    align-items: center;*/
+        /*    margin: 20px;*/
+        /*}*/
+        /*.img-client{*/
+        /*    max-width: 100%;*/
+        /*    max-height: 100%;*/
+        /*}*/
+        /*.client-slider-slick.slick-slide.slick-current.slick-active.slick-initialized.slick-slider,.slick-track{*/
+        /*    width: 100%!important;*/
+        /*}*/
     </style>
 <!-- section du formulaire de contact -->
 <section class="xs-section-padding xs-bg-gray">

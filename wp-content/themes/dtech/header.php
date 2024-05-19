@@ -24,8 +24,8 @@
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.structure.min.css">
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/jquery-ui.theme.min.css">
 	<link rel="stylesheet" href="<?= get_stylesheet_directory_uri() ?>/assets/css/rev-settings.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
+<!--    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
 
 	<!--For Plugins external css-->

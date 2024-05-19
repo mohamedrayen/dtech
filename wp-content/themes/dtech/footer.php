@@ -180,18 +180,40 @@
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.video.min.js"></script>
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/shuffle-letters.js"></script>
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/main.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><!-- End js file -->
-<script type="text/javascript">
-    $('.client-slider-slick').slick({
-        arrows:false,
-        infinite: true,
-        slidesToShow: 9,
-        slidesToScroll: 1,
-        speed: 3000,
-        autoplay: true,
-        autoplaySpeed: 0,
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    import Swiper from 'swiper';
+
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 5,
+        },
+        speed: 300,
+        slidesPerView: 4,
+        spaceBetween: 40,
+        grabCursor:true,
+        allowTouchMove:true;
     });
+    swiper.allowTouchMove();
+    swiper.autoplay();
+
 </script>
+</body>
+</html>
+<!--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><!-- End js file -->-->
+<!--<script type="text/javascript">-->
+<!--    $('.client-slider-slick').slick({-->
+<!--        arrows:false,-->
+<!--        infinite: true,-->
+<!--        slidesToShow: 9,-->
+<!--        slidesToScroll: 1,-->
+<!--        speed: 3000,-->
+<!--        autoplay: true,-->
+<!--        autoplaySpeed: 0,-->
+<!--    });-->
+<!--</script>-->
 <!--<script>-->
 <!--    document.addEventListener('DOMContentLoaded', function() {-->
 <!--        let liste = document.getElementsByClassName("client-slider-slick");-->
@@ -211,5 +233,3 @@
 <!--        }-->
 <!--    }, false);-->
 <!--</script>-->
-</body>
-</html>

@@ -36,10 +36,9 @@ function display_brands() {
 	$brands = new WP_Query( $args );
 
 	if ( $brands->have_posts() ) {
-		echo '<div class="client-slider-slick">';
 		while ( $brands->have_posts() ) {
 			$brands->the_post();
-			echo '<div class="single-client">';
+			echo '<div class=swiper-slide">';
 			if ( has_post_thumbnail() ) {
 				$image_url = get_the_post_thumbnail_url( get_the_ID(), 'full' );
 				echo '<img src="' . esc_url( $image_url ) . '" class="img-client" alt="' . esc_attr( get_the_title() ) . '">';
@@ -48,7 +47,6 @@ function display_brands() {
 			}
 			echo '</div>';
 		}
-		echo '</div>';
 		wp_reset_postdata();
 	} else {
 		echo 'No brands found';

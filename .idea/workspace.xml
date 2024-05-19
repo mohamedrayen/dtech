@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="307e0b80-298e-4837-8563-df18dcf38dd0" name="Changes" comment="dev">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/Managed-Services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/backup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/wcu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +80,8 @@
       <workItem from="1713916067181" duration="1691000" />
       <workItem from="1713952246295" duration="7224000" />
       <workItem from="1715963654812" duration="17853000" />
+      <workItem from="1716027086717" duration="1095000" />
+      <workItem from="1716113496823" duration="4942000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
