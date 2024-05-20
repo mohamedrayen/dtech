@@ -84,13 +84,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="xs-logo-wraper">
-                    <a href="index.html" class="xs-logo">
+                    <a href="<?= home_url() ?>" class="xs-logo">
                         <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/logo.png" alt="">
                     </a>
                 </div>
                 <nav class="xs-menus ml-auto">
                     <div class="nav-header">
-                        <a class="nav-brand" href="index.html"></a>
+                        <a class="nav-brand" href="<?= home_url() ?>"></a>
                         <div class="nav-toggle"></div>
                     </div>
                     <!-- menu list start -->
@@ -106,7 +106,7 @@
                                 <div class="megamenu-panel xs-service-menu">
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <a href="Backup.php">
+                                            <a href="<?php echo get_permalink( get_post( 113 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-1.png" alt="">
                                                     <div class="media-body">
@@ -115,7 +115,7 @@
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="reseller-hosting.php">
+                                            <a href="<?php echo get_permalink( get_post( 115 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-2.png" alt="">
                                                     <div class="media-body">
@@ -124,7 +124,7 @@
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="vps-hosting.php">
+                                            <a href="<?php echo get_permalink( get_post( 115 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-3.png" alt="">
                                                     <div class="media-body">
@@ -135,7 +135,7 @@
                                             </a>
                                         </div>
                                         <div class="col-lg-6">
-                                            <a href="cloud-hosting.php">
+                                            <a href="<?php echo get_permalink( get_post( 115 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-4.png" alt="">
                                                     <div class="media-body">
@@ -144,7 +144,7 @@
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="dedicated-hosting.php">
+                                            <a href="<?php echo get_permalink( get_post( 115 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-5.png" alt="">
                                                     <div class="media-body">
@@ -153,7 +153,7 @@
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="domain.php">
+                                            <a href="<?php echo get_permalink( get_post( 115 ) ) ?>">
                                                 <div class="media">
                                                     <img src="<?= get_stylesheet_directory_uri() ?>/assets/images/menu-icon/icon-6.png" alt="">
                                                     <div class="media-body">
@@ -166,7 +166,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="mega-menus"><a href="Network-and-Telecom.php">Réseau et Télecom</a>
+                            <li class="mega-menus"><a href="<?php echo get_permalink( get_post( 108 ) ) ?>">Réseau et Télecom</a>
                             </li>
                             <li><a href="<?php echo get_permalink( get_post( 16 ) ) ?>">Contact</a></li>
 

@@ -32,20 +32,21 @@ function display_brands() {
 	$args = array(
 		'post_type' => 'brand',
 		'posts_per_page' => -1, // Display all brands
+		'orderby' => 'rand', // Shuffle the brands randomly
 	);
 	$brands = new WP_Query( $args );
 
 	if ( $brands->have_posts() ) {
 		while ( $brands->have_posts() ) {
 			$brands->the_post();
-			echo '<div class=swiper-slide">';
+			echo '<swiper-slide class="swiperslide">';
 			if ( has_post_thumbnail() ) {
 				$image_url = get_the_post_thumbnail_url( get_the_ID(), 'full' );
 				echo '<img src="' . esc_url( $image_url ) . '" class="img-client" alt="' . esc_attr( get_the_title() ) . '">';
 			} else {
 				echo '<img src="' . get_stylesheet_directory_uri() . '/assets/images/default-client.png" class="img-client" alt="default image">';
 			}
-			echo '</div>';
+			echo '</swiper-slide>';
 		}
 		wp_reset_postdata();
 	} else {

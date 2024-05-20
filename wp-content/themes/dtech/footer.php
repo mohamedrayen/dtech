@@ -102,25 +102,7 @@
                 </div><!-- .row END -->
             </div><!-- .container END -->
         </div><!-- .footer-main END -->
-        <div class="container">
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer-bottom-info wow fadeInUp">
-                            <p>Offres valables pour une durée limitée uniquement et reflètent des remises annuelles multiples. D'autres conditions générales peuvent s'appliquer.  <a href="#">Cliquez ici</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="xs-list list-inline wow fadeInUp" data-wow-duration="1s">
-                            <li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-1.png" alt="images de la société de sécurité"></li>
-                            <li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-2.png" alt="images de la société de sécurité"></li>
-                            <li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-3.png" alt="images de la société de sécurité"></li>
-                            <li><img src="<?= get_stylesheet_directory_uri() ?>/assets/images/security/security-company-images-4.png" alt="images de la société de sécurité"></li>
-                        </ul>
-                    </div>
-                </div><!-- .row END -->
-            </div><!-- .footer-bottom end -->
-        </div><!-- .container end -->
+
     </div><!-- .footer-group END -->
     <div class="footer-copyright">
         <div class="container">
@@ -180,29 +162,53 @@
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/extensions/revolution.extension.video.min.js"></script>
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/shuffle-letters.js"></script>
 <script src="<?= get_stylesheet_directory_uri() ?>/assets/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script>
-    import Swiper from 'swiper';
+    // swiper element
+    const swiperEl = document.querySelector('swiper-container');
 
-    const swiper = new Swiper('.swiper', {
-        loop: true,
+    // swiper parameters
+
+    const swiperParams = {
         autoplay: {
-            delay: 5,
+            delay: 0,
+            disableOnInteraction: false,
         },
-        speed: 300,
-        slidesPerView: 4,
-        spaceBetween: 40,
-        grabCursor:true,
-        allowTouchMove:true;
-    });
-    swiper.allowTouchMove();
-    swiper.autoplay();
+        breakpoints: {
+            640: {
+                slidesPerView: 5,
+            },
+            1024: {
+                slidesPerView: 8,
+            },
+        },
 
+
+        // array with CSS styles
+        injectStyles: [
+            `
+
+     .swiper-pagination-bullets{
+  display: none;
+}
+.swiper-button-next, .swiper-button-prev {
+  z-index: 999;
+   display: none;
+}
+      `,
+        ],
+    };
+
+    // assign all parameters to Swiper element
+    Object.assign(swiperEl, swiperParams);
+
+    // and now initialize it
+    swiperEl.initialize();
 </script>
+
 </body>
 </html>
-<!--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><!-- End js file -->-->
+<!--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><!-- End js file -->
 <!--<script type="text/javascript">-->
 <!--    $('.client-slider-slick').slick({-->
 <!--        arrows:false,-->

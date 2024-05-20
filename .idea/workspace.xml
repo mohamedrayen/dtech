@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="307e0b80-298e-4837-8563-df18dcf38dd0" name="Changes" comment="dev">
+    <list default="true" id="307e0b80-298e-4837-8563-df18dcf38dd0" name="Changes" comment="swiper">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/page-Network-and-Telecom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/moreinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/swiper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/whyus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/dtech/services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/Managed-Services.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/Managed-Services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/backup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/page-front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/parts/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/parts/info.php" afterDir="false" />
+    </list>
+    <list id="0bdf539a-41b5-46c5-9f46-74841e30d3dd" name="Changes by Amine Yaakoubi" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/dtech/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +34,34 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/wp-content/themes/dtech/contact.php">
+      <ranges>
+        <range start1="4" end1="4" start2="4" end2="5" changelist="0bdf539a-41b5-46c5-9f46-74841e30d3dd" />
+        <range start1="74" end1="80" start2="75" end2="77" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="81" end1="95" start2="78" end2="78" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="96" end1="112" start2="79" end2="81" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="124" end1="134" start2="93" end2="93" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="141" end1="280" start2="100" end2="100" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="287" end1="289" start2="107" end2="108" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/wp-content/themes/dtech/header.php">
+      <ranges>
+        <range start1="27" end1="28" start2="27" end2="28" changelist="0bdf539a-41b5-46c5-9f46-74841e30d3dd" />
+        <range start1="34" end1="35" start2="34" end2="35" changelist="0bdf539a-41b5-46c5-9f46-74841e30d3dd" />
+        <range start1="86" end1="87" start2="86" end2="87" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="92" end1="93" start2="92" end2="93" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="108" end1="109" start2="108" end2="109" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="117" end1="118" start2="117" end2="118" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="126" end1="127" start2="126" end2="127" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="137" end1="138" start2="137" end2="138" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="146" end1="147" start2="146" end2="147" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="155" end1="156" start2="155" end2="156" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+        <range start1="168" end1="169" start2="168" end2="169" changelist="307e0b80-298e-4837-8563-df18dcf38dd0" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -81,7 +122,9 @@
       <workItem from="1713952246295" duration="7224000" />
       <workItem from="1715963654812" duration="17853000" />
       <workItem from="1716027086717" duration="1095000" />
-      <workItem from="1716113496823" duration="4942000" />
+      <workItem from="1716113496823" duration="5116000" />
+      <workItem from="1716151212962" duration="5934000" />
+      <workItem from="1716193769510" duration="28074000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -139,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713917726395</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="swiper">
+      <option name="closed" value="true" />
+      <created>1716118749661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716118749661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,9 +199,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev" />
+    <MESSAGE value="swiper" />
+    <option name="LAST_COMMIT_MESSAGE" value="swiper" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\dt</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/dtech/header.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

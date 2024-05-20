@@ -1,5 +1,5 @@
 <!-- section des informations sur l'hébergement -->
-<section class="xs-section-padding xs-hosting-info">
+<section class="xs-section-padding xs-hosting-info" style="padding-bottom: 1em;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">

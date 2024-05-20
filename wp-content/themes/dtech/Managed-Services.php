@@ -196,6 +196,9 @@ get_header();
         </div><!-- .container END -->
     </section><!-- END pricing section -->
 <?php get_template_part('parts/info'); ?>
+
+<?php get_template_part('parts/swiper'); ?>
+
     <!-- package included section -->
     <section class="xs-bg-gray xs-section-padding">
         <div class="container">
